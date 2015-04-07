@@ -40,6 +40,7 @@ public class GUISIBDI extends javax.swing.JFrame {
         jmiLibros = new javax.swing.JMenuItem();
         jmiPrestamos = new javax.swing.JMenuItem();
         jmiDevolucion = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,6 +67,9 @@ public class GUISIBDI extends javax.swing.JFrame {
         jmRegistros.add(jmiDevolucion);
 
         barraMenu.add(jmRegistros);
+
+        jMenu1.setText("jMenu1");
+        barraMenu.add(jMenu1);
 
         setJMenuBar(barraMenu);
 
@@ -126,6 +130,7 @@ public class GUISIBDI extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar barraMenu;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jmArchivo;
     private javax.swing.JMenu jmRegistros;
     private javax.swing.JMenuItem jmiDevolucion;
